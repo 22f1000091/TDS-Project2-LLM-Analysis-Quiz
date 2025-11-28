@@ -37,7 +37,7 @@ async def run_agent(task_url, email, secret):
 
     # 2. Initialize Gemini Model with Tools
     model = genai.GenerativeModel(
-        model_name='gemini-1.5-flash',
+        model_name='gemini-2.5-flash',
         tools=[download_file, run_python_analysis, list_files]
     )
     
