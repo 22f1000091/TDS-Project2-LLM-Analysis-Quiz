@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Environment Variables (CRITICAL)
+.env
+
+# Temporary Downloads
+downloads/*
+!downloads/.keep
+
+# Logs
+*.log
+
+# Docker
+Dockerfile
+
+.vscode
